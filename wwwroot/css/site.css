@@ -1,0 +1,46 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background: url("/img/farm.jpg") fixed;
+    background-size: cover;
+    color:white;
+}
+
+body::before {
+    display: block;
+    content: '';
+    height: 70px;
+}
+
+.modal-backdrop {
+    z-index: 1029 !important;
+}
+
+.modal-content {
+    top: 3rem;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+}
+
+.mb-3 {
+    background-color: #5677b0;
+    border-radius: 8px;
+    color: white;
+}
